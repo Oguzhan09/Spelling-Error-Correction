@@ -1,0 +1,16 @@
+HOW TO RUN PROGRAM ? 
+1. Open the terminal in the specific folder which contain program files
+2. Write this "python3 'python-project-name' 'input1' 'input2' 'input3' 'input4'
+3. After that my program create "output.txt" file in the folder.
+
+My project name: spell-corrector.py
+input1 : "corpus.txt"
+input2 : "spell-errors.txt"
+input3 : "test-words-misspelled.txt"
+input4 : "smooth" or "nonsmooth"
+
+So, I am writing for testing provided file:
+With smoothing: 
+python3 spell-corrector.py corpus.txt spell-errors.txt test-words-misspelled.txt smooth
+With non smoothing: 
+python3 spell-corrector.py corpus.txt spell-errors.txt test-words-misspelled.txt nonsmooth
